@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>David Rawson</title>
+		<link>http://localhost:1313/</link>
+		<description>Recent content on David Rawson</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<lastBuildDate>Tue, 06 Oct 2026 08:41:14 +0000</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Split the difference</title>
+				<link>http://localhost:1313/blog/2026_10_split/</link>
+				<pubDate>Tue, 06 Oct 2026 08:41:14 +0000</pubDate>
+				<guid>http://localhost:1313/blog/2026_10_split/</guid>
+				<description>&lt;p&gt;Splitting the difference between two opposing views often seems clever. &amp;ldquo;Those darn&amp;rsquo;d hardliners!&#xA;I&amp;rsquo;m a centrist!&amp;rdquo;&lt;/p&gt;&#xA;&lt;p&gt;On software teams, there are often disputes between those who want a quality solution and those who&#xA;just want to ship. For a manager here, splitting the difference between the two can seem like a great option.&#xA;Maintaining this stance makes one seem a pragmatist in a sea of idealists. Since neither party&#xA;gets their way, it can allow a manager to seem fair and impartial.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Photos</title>
+				<link>http://localhost:1313/photos/photos/</link>
+				<pubDate>Sun, 30 Aug 2026 20:52:15 +1200</pubDate>
+				<guid>http://localhost:1313/photos/photos/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Selected talks</title>
+				<link>http://localhost:1313/speaking/speaking/</link>
+				<pubDate>Sun, 30 Aug 2026 19:32:02 +1200</pubDate>
+				<guid>http://localhost:1313/speaking/speaking/</guid>
+				<description>&lt;h2 id=&#34;gdg-devfest-melbourne-2026&#34;&gt;GDG DevFest Melbourne 2026&lt;/h2&gt;&#xA;&lt;p&gt;Analyse This: Guardrails for Humans and Agents with Lint&lt;/p&gt;&#xA;&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;&#x9;&#x9;&#x9;&lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/klokWeFlsXs?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;&#x9;&#x9;&lt;/div&gt;&#xA;&#xA;&lt;p&gt;&lt;a href=&#34;https://slides.com/davidrawson/analyzethis&#34;&gt;https://slides.com/davidrawson/analyzethis&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;gdg-devfest-melbourne-2025&#34;&gt;GDG DevFest Melbourne 2025&lt;/h2&gt;&#xA;&lt;p&gt;Dangerous Minds: How we&amp;rsquo;re getting developer education wrong&lt;/p&gt;&#xA;&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;&#x9;&#x9;&#x9;&lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/Jzf7oTTXM98?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;&#x9;&#x9;&lt;/div&gt;&#xA;&#xA;&lt;p&gt;&lt;a href=&#34;https://slides.com/davidrawson/dangerous-minds&#34;&gt;https://slides.com/davidrawson/dangerous-minds&lt;/a&gt;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Idiomatic Code</title>
+				<link>http://localhost:1313/blog/@drawson/idiomatic-code-a73f17f0f287/</link>
+				<pubDate>Tue, 28 Jul 2020 00:02:25 +0000</pubDate>
+				<guid>http://localhost:1313/blog/@drawson/idiomatic-code-a73f17f0f287/</guid>
+				<description>&lt;blockquote&gt;&#xA;&lt;p&gt;You can call it “beautiful code” when the code also makes it look like the language was made for the problem - Ward Cunningham&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;If you have a sound continuous integration practice, your pull requests will be automatically evaluated for test coverage and compliance with code conventions. But it’s your teammates who will evaluate the degree to which the submitted code is high quality through being &lt;em&gt;idiomatic&lt;/em&gt;. What does this mean?&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Manage the Marbles with Dagger Producers</title>
+				<link>http://localhost:1313/blog/2017_08_manage_the_marbles/</link>
+				<pubDate>Tue, 08 Aug 2017 20:52:15 +1200</pubDate>
+				<guid>http://localhost:1313/blog/2017_08_manage_the_marbles/</guid>
+				<description>&lt;p&gt;&lt;strong&gt;&lt;em&gt;TL;DR&lt;/em&gt;&lt;/strong&gt; &lt;em&gt;in composing pipelines of asynchronous tasks we encounter the same kinds of problems as in composing graphs of dependencies.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;The dependency injection framework Dagger 2 can manage both types of composition, leading to increased modularity.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://miro.medium.com/v2/resize:fit:1214/format:webp/1*SOyy6nf8qIls-4TaLmNI9g.jpeg&#34; alt=&#34;captionless image&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Assume we have an app where the user enters in a player name and the app displays the last 20 games played by that player.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://miro.medium.com/v2/resize:fit:732/format:webp/1*PlwixgJRhbmMW8QIvf3R3w.png&#34; alt=&#34;A simple app&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;The business logic for this involves two requests to our API:&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

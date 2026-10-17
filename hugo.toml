@@ -1,0 +1,58 @@
+baseURL = 'https://example.org/'
+locale = 'en-us'
+title = 'David Rawson'
+theme = 'hello-friend-ng'
+
+[params]
+dateform        = "Jan 2, 2006"
+dateformShort   = "Jan 2"
+dateformNum     = "2006-01-02"
+dateformNumTime = "2006-01-02 15:04"
+
+# Subtitle for home
+homeSubtitle = "Android developer based in Auckland, NZ"
+
+# Set disableReadOtherPosts to true in order to hide the links to other posts.
+disableReadOtherPosts = false
+
+# Enable sharing buttons, if you like
+enableSharingButtons = true
+
+# Show a global language switcher in the navigation bar
+enableGlobalLanguageMenu = true
+
+# Metadata mostly used in document's head
+description = "David Rawson. Android Developer in Auckland, New Zealand"
+keywords = "homepage, blog"
+images = [""]
+
+[[menu.main]]
+identifier = "speaking"
+name       = "Speaking"
+url        = "/speaking/speaking"
+
+[[menu.main]]
+identifier = "writing"
+name       = "Writing"
+url        = "/blog/"
+
+# and submenus
+[[menu.main]]
+identifier  = "parent"
+name        = "Parent"
+url         = "/parent"
+hasChildren = true
+
+[[menu.main]]
+identifier  = "child"
+name        = "Child"
+url         = "/parent/child"
+parent      = "parent"
+
+[[module.mounts]]
+source = 'static'
+target = 'static'
+
+[[module.mounts]]
+source = 'images'
+target = 'static/images'

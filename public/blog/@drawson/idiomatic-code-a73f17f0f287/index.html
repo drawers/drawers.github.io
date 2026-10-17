@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+        <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="author" content="">
+<meta name="description" content="What it is and why it matters." />
+<meta name="keywords" content="homepage, blog" />
+<meta name="robots" content="noodp" />
+<meta name="theme-color" content="" />
+<link rel="canonical" href="http://localhost:1313/blog/@drawson/idiomatic-code-a73f17f0f287/" />
+
+
+    <title>
+        
+            Idiomatic Code :: David Rawson 
+        
+    </title>
+
+
+
+
+
+  <link rel="stylesheet" href="/main.min.ebe3824dfa5345ef854f8b255c278f701966e9be3892354b588fb1650ecd358e.css" integrity="sha256-6&#43;OCTfpTRe&#43;FT4slXCePcBlm6b44kjVLWI&#43;xZQ7NNY4=" crossorigin="anonymous">
+
+
+
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <meta name="msapplication-TileColor" content="">
+
+
+
+	<meta itemprop="name" content="Idiomatic Code">
+	<meta itemprop="description" content="What it is and why it matters.">
+	<meta itemprop="datePublished" content="2020-07-28T00:02:25+00:00">
+	<meta itemprop="dateModified" content="2020-07-28T00:02:25+00:00">
+	<meta itemprop="wordCount" content="1503">
+	<meta itemprop="image" content="http://localhost:1313/">
+
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:image" content="http://localhost:1313/">
+	<meta name="twitter:title" content="Idiomatic Code">
+	<meta name="twitter:description" content="What it is and why it matters.">
+
+
+
+
+
+
+
+    <meta property="article:published_time" content="2020-07-28 00:02:25 &#43;0000 UTC" />
+
+
+
+
+
+
+
+
+
+
+
+
+    </head>
+
+    
+        <body>
+    
+    
+        <div class="container">
+            <header class="header">
+    <span class="header__inner">
+        <a href="/" style="text-decoration: none;">
+    <div class="logo">
+        
+            <span class="logo__mark">></span>
+            <span class="logo__text ">
+                hello</span>
+            <span class="logo__cursor" style=
+                  "
+                   
+                   ">
+            </span>
+        
+    </div>
+</a>
+
+
+        <span class="header__right">
+                <nav class="menu">
+    <ul class="menu__inner">
+                <div class="submenu">
+                    <li class="dropdown">
+                    <a href="javascript:void(0)" class="dropbtn">Parent</a>
+                    <div class="dropdown-content">
+                    
+                        <a href="/parent/child">Child</a>
+                    
+                    </div>
+                    </li>
+                </div>
+            
+                <li><a href="/speaking/speaking">Speaking</a></li>
+            
+                <li><a href="/blog/">Writing</a></li>
+            
+        <ul class="submenu">
+            <li class="dropdown">
+                <a href="javascript:void(0)" class="dropbtn">en</a>
+                <div class="dropdown-content">
+                </div>
+            </li>
+        </ul>
+    </ul>
+</nav>
+
+
+                <span class="menu-trigger">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+                    </svg>
+                </span>
+        </span>
+    </span>
+</header>
+
+
+            
+    <div class="content">
+        <main class="post">
+
+            <div class="post-info">
+                
+                </p>
+            </div>
+
+            <article>
+                <h2 class="post-title"><a href="http://localhost:1313/blog/@drawson/idiomatic-code-a73f17f0f287/">Idiomatic Code</a></h2>
+
+                
+                
+                
+
+                <div class="post-content">
+                    <blockquote>
+<p>You can call it “beautiful code” when the code also makes it look like the language was made for the problem - Ward Cunningham</p>
+</blockquote>
+<p>If you have a sound continuous integration practice, your pull requests will be automatically evaluated for test coverage and compliance with code conventions. But it’s your teammates who will evaluate the degree to which the submitted code is high quality through being <em>idiomatic</em>. What does this mean?</p>
+<p><img src="/Users/davidrawson/AndroidStudioProjects/medium2md/medium/posts/md_1788081470726/img/1____BAzB5eaH2Ugnj7VbzHYmA.jpeg" alt=""></p>
+<h4 id="what-does-idiomatic-mean-ingeneral">What does “idiomatic” mean in general?</h4>
+<p>If we have DuckDuckGo installed, we can pretend our web searches are terminal scripts:</p>
+<p><img src="/images/0__6vP1WpgxRo1amEL4.jpg" alt=""></p>
+<p><code>!wikt idiomatic</code> will take us to the Wiktionary page for “idiomatic”, revealing the following definition:</p>
+<blockquote>
+<p>Pertaining or conforming to the natural mode of expression of a language.</p>
+</blockquote>
+<p>A few links further down is the origin, the Greek “ἴδιος” meaning “private, peculiar, specific, appropriate.”</p>
+<p>So, in software engineering “idiomatic” means “conforming to the natural mode of expression in a given context”, where that context can be a programming language, like Kotlin or JS, or even a framework like React or RxJava.</p>
+<p>But like many simple definitions, this can be taken to a harmful extreme. So let’s define some boundaries to prevent misuse.</p>
+<h4 id="idiomatic-is-not-a-synonym-of-fashionable">“Idiomatic” is not a synonym of “fashionable”</h4>
+<p>Oscar Wilde may have been talking about artistic fashion when he said:</p>
+<blockquote>
+<p>And, after all, what is a fashion? From the artistic point of view, it is usually a form of ugliness so intolerable that we have to alter it every six months</p>
+</blockquote>
+<p>But he may as well have been talking about frameworks:</p>
+<p>We might arrive at an incorrect conclusion if we assume “the natural mode of expression” in our definition of idiomatic means “the most popular and current form of expression.” We might then go on to say our code is unidiomatic because we are not using the framework-du-jour.</p>
+<p>This is problematic — if we must dismiss code that fails to conform to the latest trend as low quality, we introduce waste as we thrash backwards and forwards when the winds of fashion change. To use another metaphor, a codebase where these changes happen frequently can resemble the <a href="https://mikehadlow.blogspot.com/2014/12/the-lava-layer-anti-pattern.html">lava layers</a> left behind by volcanic eruptions.</p>
+<p>While fashion can and should <em>influence</em> our understanding of the idiomatic, it shouldn’t <em>determine</em> it. In other words, “idiomatic” doesn’t mean “being an <a href="https://www.merriam-webster.com/words-at-play/what-is-an-edgelord-slang-definition-words-were-watching">edgelord</a>.”</p>
+<h4 id="idiomatic-is-not-bike-shedding">Idiomatic is not bike-shedding</h4>
+<p>There should be one&ndash; and preferably only one &ndash;obvious way to do it.</p>
+<p>The <a href="https://www.python.org/dev/peps/pep-0020/">Zen of Python</a> insists there is one good way to do things, but in some languages the cup runneth over with multiple possible approaches to a particular problem. One might imagine that deeply exploring these possibilities in a pull request is required to achieve idiomatic code.</p>
+<p>Of course we want to improve the code, but continually proposing alternative approaches that have no advantages over the original is simply wasteful churn and degenerates into <a href="https://en.wikipedia.org/wiki/Law_of_triviality">bike-shedding</a> — pointless arguments about trivialities. In other words, continually insisting “<em>I</em> would have done it <em>this</em> way” is not a path to the idiomatic.</p>
+<p><img src="/images/1__zYhcFTMqGz6HT1pKK__asnA.jpeg" alt=""></p>
+<h4 id="idiomatic-is-not-just-following-thedocs">Idiomatic is not just following the docs</h4>
+<p>One then may think that it is enough to follow closely whatever docs are provided for a language or framework to know what is idiomatic. However, this fails to capture the situation where documentation has diverged from best practice for that context.</p>
+<p>This situation is surprisingly common. Often at the time the tools are first written, our understanding is less mature. A community of best practice evolves slowly. For instance, the classes and documentation authored in the early days of Java do not reflect later robust Java practice as reflected in Joshua Bloch’s brilliant <a href="https://read.amazon.com.au/kp/embed?asin=B078H61SCH&amp;preview=newtab&amp;linkCode=kpe&amp;ref_=cm_sw_r_kb_dp_.Va.EbSR9S306">Effective Java</a>.</p>
+<p><img src="/images/0__mClOagKQdfeUj4TL.jpg" alt=""></p>
+<p>Famously, the early <code>java.util.Date</code> class contains mutator methods for the year, day, and hour. Thus it contradicts Item 15: Minimize mutability. The later <code>ZonedDateTime</code> corrects this mistake. In this case, even though <code>java.util.Date</code> is part of the Java API, imitating this class in hopes of obtaining idiomatic Java is wrong.</p>
+<h3 id="what-then-is-idiomatic">What then is idiomatic?</h3>
+<p>Therefore, the idiomatic lies on a knife-edge: respecting a modern community of practice, but not unduly influenced by its fashions. Respecting the docs, but respecting them enough to discard them when they contradict proven engineering practices. Exploring the possibilities of the language, but not exhausting oneself in debates like: “you can also do it this way in Kotlin…” It is the job of the tech lead to navigate these rocks and shoals.</p>
+<p><img src="/images/1__bBTYjR9agARof5kEWEbdKQ.png" alt=""></p>
+<h3 id="why">Why?</h3>
+<p>If idiomatic code is so difficult to achieve then why even bother?</p>
+<h4 id="hiring">Hiring</h4>
+<p>If your project respects a well-established idiom, you will have an easier task bringing in new friends to help your endeavour. Experienced developers will have done their time in engineering <a href="https://en.wikipedia.org/wiki/Cargo_cult">cargo-cults</a> and will be vigilantly avoiding these. Similarly, those who appreciate nuance and consistency will want to avoid the endless churn of a latest-framework hype shop. If you can demonstrate in your interactions with prospective employees that you have found a middle way between stale old practices and fashion churn, you will attract talent.</p>
+<h4 id="onboarding">Onboarding</h4>
+<p>A project that conforms to an idiom will be easier for a new hire to understand. They will find the right things in the right places, and their early contributions will fit better.</p>
+<h4 id="technical-debt">Technical debt</h4>
+<p>Unidiomatic code begets unidiomatic code. Ignoring the framework idiom, you warp the supplied components into your own unusual structure. Because you’ve departed from the intention of the framework, you will have to add more and more workarounds as time passes. These workarounds will attract bugs and, yes, technical debt.</p>
+<h4 id="good-citizenship">Good citizenship</h4>
+<p>If you follow the idiom, external dependencies will match your code and will be easy to integrate. Conversely, parts of your own code can be open-sourced with little modification since they match the expectations of a community of practice.</p>
+<p><img src="/images/1__KYr19bfhpWG0pvpicRwSlg.jpeg" alt="captionless image"></p>
+<h3 id="how">How?</h3>
+<p>We’ve already established that developer docs are not enough to obtain the idiomatic. And we all know that random Medium articles can be a mixed bunch. What then is needed?</p>
+<h4 id="stack-overflow">Stack Overflow</h4>
+<p>Stack Overflow can be a great source for the idiomatic when we are learning a new framework. But not in our normal way of use. Just Googling when we get stuck and relying on Stack Overflow solutions is a dangerous path, since we learn the bare minimum to deliver our story without understanding the idiomatic.</p>
+<p>A better strategy can be to <a href="https://stackoverflow.com/help/interesting-topics">follow a Stack Overflow tag</a>, and watch how different answers appear and attract votes.</p>
+<p><img src="/images/0__HlUlKNElO5sRG__Gq.png" alt=""></p>
+<p>You can even find some framework authors answering questions on their work. Here is an answer to a question about RxJava by library author David Karnok:</p>
+<p><img src="/images/stackoverflow.png" alt="img.png"></p>
+<p><a href="https://stackoverflow.com/a/40326875/5241933">https://stackoverflow.com/a/40326875/5241933</a></p>
+<p>When you get more confident, you can attempt your own answers to questions on the tag. In this way, you are submitting your own understanding to review by your peers. This is a great way to check your understanding.</p>
+<h4 id="books">Books</h4>
+<p>Yes, good old-fashioned ink on paper can help here. Unlike so many articles on the internet, books from reputable publishing companies are vetted and edited heavily. If you don’t know where to start, a book can be an excellent guide. It’s often worth shelling out for the book and working through it slowly, rather than rushing in and writing code that does not conform to the idiom.</p>
+<h4 id="fulfilling-the-need-forlearning">Fulfilling the need for learning</h4>
+<p>While finding a balance may mean that you don’t use the latest framework, engineers may become frustrated that they are missing out on experience with a technology that will be important for their careers in the future. In this case, it’s important to give an outlet for experimentation. Maintaining 20% time for personal projects is not only good for speed, since 100% utilisation is wasteful, but it’s also a chance for engineers to try the latest toys to keep their skills up-to-date. Alternatively, low-risk, modularised, isolated parts of the codebase may be suitable for experiments with new technologies without departing too far from the idiomatic core.</p>
+<h4 id="give-ittime">Give it time</h4>
+<p>Unfortunately we are most likely to write unidiomatic code at the beginning of a project with a new framework. This is the “danger zone”: where we’re a competent enough programmer to deliver features, but not familiar enough with the framework to write idiomatic code. This should be kept in mind when framework switches are considered: not only will there be a gap in delivery as developers learn the new framework, but there will also be a gap in quality as the early work does not conform with the idiomatic. This early code may need to be reworked when we later discover the idiom has been misunderstood. Better sooner than later, before it grows legs and takes the project down a path that no-one can follow…</p>
+<h3 id="conclusion">Conclusion</h3>
+<p>One final doubt, “idiomatic” sounds a bit like another word we use for people we don’t like. Yes, it’s cognate with “idiot” from the Greek <em>idiṓtēs</em> meaning “private citizen” or “layman”<em>.</em> So be idio-matic in the sense that your code is private, or peculiar, to a community of practice. But don’t be an “idio-t”: don’t write your own peculiar, private code that no-one outside will understand!</p>
+<p>Originally published Jul 28, 2020 on medium.com</p>
+
+                </div>
+            </article>
+
+            <hr />
+
+            <div class="post-info">
+                
+                
+            </div>
+        </main>
+    </div>
+
+
+            
+                <footer class="footer">
+    
+    
+</footer>
+
+            
+        </div>
+
+        
+
+
+
+<script type="text/javascript" src="/bundle.min.08b680078a3cf9c69e3dd217a5aa52cfddd4a1d850f8cdff127fdd7421a71f8b2b474be69386f67819edace92273916e7230c9054f38107db9dc6730b3530ab5.js" integrity="sha512-CLaAB4o8&#43;caePdIXpapSz93UodhQ&#43;M3/En/ddCGnH4srR0vmk4b2eBntrOkic5FucjDJBU84EH253Gcws1MKtQ=="></script>
+
+
+
+
+    </body>
+</html>
