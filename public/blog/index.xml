@@ -10,16 +10,9 @@
 		
 		
 		
-			<lastBuildDate>Tue, 06 Oct 2026 08:41:14 +0000</lastBuildDate>
+			<lastBuildDate>Tue, 28 Jul 2020 00:02:25 +0000</lastBuildDate>
 		
 			<atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
-			<item>
-				<title>Split the difference</title>
-				<link>http://localhost:1313/blog/2026_10_split/</link>
-				<pubDate>Tue, 06 Oct 2026 08:41:14 +0000</pubDate>
-				<guid>http://localhost:1313/blog/2026_10_split/</guid>
-				<description>&lt;p&gt;Splitting the difference between two opposing views often seems clever. &amp;ldquo;Those darn&amp;rsquo;d hardliners!&#xA;I&amp;rsquo;m a centrist!&amp;rdquo;&lt;/p&gt;&#xA;&lt;p&gt;On software teams, there are often disputes between those who want a quality solution and those who&#xA;just want to ship. For a manager here, splitting the difference between the two can seem like a great option.&#xA;Maintaining this stance makes one seem a pragmatist in a sea of idealists. Since neither party&#xA;gets their way, it can allow a manager to seem fair and impartial.&lt;/p&gt;</description>
-			</item>
 			<item>
 				<title>Idiomatic Code</title>
 				<link>http://localhost:1313/blog/@drawson/idiomatic-code-a73f17f0f287/</link>
